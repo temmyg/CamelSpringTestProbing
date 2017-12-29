@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.camel:json-simple-ordered:2.21.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/json-simple-ordered/2.21.0-SNAPSHOT/json-simple-ordered-2.21.0-20171228.124028-106.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/json-simple-ordered/2.21.0-SNAPSHOT/json-simple-ordered-2.21.0-20171228.124028-106-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/json-simple-ordered/2.21.0-SNAPSHOT/json-simple-ordered-2.21.0-20171228.124028-106-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

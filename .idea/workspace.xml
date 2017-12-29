@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4deae6a-17fd-4a06-8708-b0a889a3d770" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_apt_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_camel_core_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_camel_spring_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_camel_test_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_json_simple_ordered_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_spi_annotations_2_21_0_SNAPSHOT.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_9_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_9_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_9_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/camel-test-spring.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/docs/test-spring.adoc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelAnnotationsHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringBootExecutionListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringBootJUnit4ClassRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringBootRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringDelegatingTestContextLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringJUnit4ClassRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestContextLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestContextLoaderTestExecutionListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestSupport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelTestContextBootstrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/DisableJmx.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/DisableJmxTestExecutionListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/EnableRouteCoverage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/ExcludeRoutes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/MockEndpoints.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/MockEndpointsAndSkip.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/ProvidesBreakpoint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/RouteCoverageEventNotifier.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/ShutdownTimeout.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/StopWatchTestExecutionListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/UseAdviceWith.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/UseOverridePropertiesWithPropertiesComponent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/NOTICE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithInterceptSendToEndpointWithLoadbalancerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithOnCompletionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/MockEndpointsAndSkipTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MyProduceBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MySender.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/ProduceBeanTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/ProducerBeanInjectTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/SimpleMockTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringActiveProfileTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringOverridePropertiesTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringPropertiesLocationElementTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRouteProcessorDumpRouteCoverageTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerDisableJmxInheritedOverrideTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerDisableJmxInheritedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerDisableJmxTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerExcludeRoutesTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerMockEndpointsAndSkipTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerMockEndpointsTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerPlainTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerProvidesBreakpointInherritedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerProvidesBreakpointTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerShutdownTimeoutInheritedOverrideTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerShutdownTimeoutInheritedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerShutdownTimeoutTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerTestPropertySourceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerUseAdviceWithTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringTestSupportActiveProfileTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/TestRouteBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/jndi.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/AdviceWithInterceptSendToEndpointWithLoadbalancerTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/AdviceWithOnCompletionTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/MockEndpointsAndSkipTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/ProduceBeanInjectTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/ProduceBeanTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/SimpleMockTest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/applicationContext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringActiveProfileTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringOverridePropertiesTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringPropertiesLocationElementTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringRunnerPlainTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringRunnerTestPropertySourceTest-context.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/properties-location-element-1.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/properties-location-element-2.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/properties-location-element-3.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/test.properties" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/camel_test_spring$DebugSpringCamelContextTest___2_Routes.coverage" NAME="DebugSpringCamelContextTest - 2 Routes Coverage Results" MODIFIED="1514495572300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.apache.camel.test.patterns.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CamelSpringRunnerPlainTest.java" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerPlainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="845">
+              <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdviceWithOnExceptionMultipleIssueTest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdviceWithOnExceptionMultipleIssueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding>
+                <element signature="e#1763#2126#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CamelSpringRunnerMockEndpointsAndSkipTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerMockEndpointsAndSkipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdviceWithInterceptSendToEndpointWithLoadbalancerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithInterceptSendToEndpointWithLoadbalancerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CamelSpringRunnerProvidesBreakpointTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerProvidesBreakpointTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugSpringTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+              <folding>
+                <element signature="e#2434#2772#0" expanded="true" />
+                <element signature="e#2771#2772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebugSpringCamelContextTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#1884#2110#0" expanded="true" />
+                <element signature="e#2109#2110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CamelSpringTestSupport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CamelSpringRunnerPlainTest-context.xml" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringRunnerPlainTest-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring/CamelSpringActiveProfileTest-context</find>
+      <find>CamelSpringRunnerPlainTest-context</find>
+      <find>mock:a</find>
+      <find>camelContext2</find>
+      <find>CamelSpringOverridePropertiesTest-context</find>
+      <find>@springboottest</find>
+      <find>spring4-version</find>
+      <find>routebuilder</find>
+      <find>spring4-ver</find>
+      <find>RouteBuilder</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/ProduceBeanTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MyProduceBean.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="issues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="issues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-test-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel-test-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/TestLab/apache-camel-2.20.1/examples/camel-example-spring-boot-rest-jpa/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DebugSpringCamelContextTest - 2 Routes">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.camel.test.issues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="camel-test-spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.camel.test.issues" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.camel.test.issues.AdviceWithOnExceptionMultipleIssueTest" />
+      <option name="METHOD_NAME" value="testMultipleAdviceWithExceptionThrown" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DebugSpringCamelContextTest - 2 Routes" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.camel.test.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="camel-test-spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.camel.test.patterns" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.camel.test.patterns.DebugSpringCamelContextTest" />
+      <option name="METHOD_NAME" value="testTwoRoutesConfigured" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProduceBeanTest.testProduceBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.camel.test.patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="camel-test-spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.camel.test.patterns" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.camel.test.patterns.ProduceBeanTest" />
+      <option name="METHOD_NAME" value="testProduceBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ProduceBeanTest.testProduceBean" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DebugSpringCamelContextTest - 2 Routes" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DebugSpringCamelContextTest - 2 Routes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProduceBeanTest.testProduceBean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4deae6a-17fd-4a06-8708-b0a889a3d770" name="Default" comment="" />
+      <created>1514405100804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514405100804</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AdviceWithOnExceptionMultipleIssueTest_testMultipleAdviceWithExceptionThrown - 2017.12.28 at 19h 53m 16s.xml">
+      <configuration name="AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdviceWithOnExceptionMultipleIssueTest_testMultipleAdviceWithExceptionThrown - 2017.12.28 at 19h 54m 08s.xml">
+      <configuration name="AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdviceWithOnExceptionMultipleIssueTest_testMultipleAdviceWithExceptionThrown - 2017.12.28 at 19h 54m 18s.xml">
+      <configuration name="AdviceWithOnExceptionMultipleIssueTest.testMultipleAdviceWithExceptionThrown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DebugSpringCamelContextTest_-_2_Routes - 2017.12.28 at 15h 55m 41s.xml">
+      <configuration name="DebugSpringCamelContextTest - 2 Routes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DebugSpringCamelContextTest_-_2_Routes - 2017.12.28 at 15h 56m 21s.xml">
+      <configuration name="DebugSpringCamelContextTest - 2 Routes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DebugSpringCamelContextTest_-_2_Routes - 2017.12.28 at 15h 56m 34s.xml">
+      <configuration name="DebugSpringCamelContextTest - 2 Routes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DebugSpringCamelContextTest_-_2_Routes - 2017.12.28 at 16h 12m 54s.xml">
+      <configuration name="DebugSpringCamelContextTest - 2 Routes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DebugSpringCamelContextTest_-_2_Routes - 2017.12.28 at 16h 13m 11s.xml">
+      <configuration name="DebugSpringCamelContextTest - 2 Routes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceBeanTest_testProduceBean - 2017.12.28 at 15h 55m 40s.xml">
+      <configuration name="ProduceBeanTest.testProduceBean" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceBeanTest_testProduceBean - 2017.12.28 at 15h 55m 41s.xml">
+      <configuration name="ProduceBeanTest.testProduceBean" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2601457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21215352" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2196162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MyProduceBean.java</url>
+          <line>43</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MyProduceBean.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringTestSupportActiveProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringActiveProfileTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringPropertiesLocationElementTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringOverridePropertiesTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/ProduceBeanInjectTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringOverridePropertiesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringActiveProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/SuspendableService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/StatefulService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/support/ServiceSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514396408294" expanded="false" signature="148:423" ph="..." />
+            <marker date="1514396408294" expanded="true" signature="1206:1213" ph="{}" />
+            <marker date="1514396408294" expanded="true" signature="1256:2636" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="2678:3351" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="3396:4011" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4055:4582" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4628:5055" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="5094:5625" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="5657:5668" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="5694:5700" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="5733:5744" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="5771:5777" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="5810:5821" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="5848:5854" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="5886:5897" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="5923:5929" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="5964:5975" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6004:6010" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="6044:6055" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6083:6089" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="6125:6512" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="6554:6565" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6614:6620" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="6666:6677" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6730:6736" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="6899:6906" ph="{}" />
+            <marker date="1514396408294" expanded="true" signature="6955:6962" ph="{}" />
+            <marker date="1514396408294" expanded="true" signature="7013:7020" ph="{}" />
+            <marker date="1514396408294" expanded="true" signature="7066:8248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/Endpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514396408294" expanded="true" signature="247:265" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="455:473" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/impl/DefaultEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514396408294" expanded="false" signature="145:992" ph="..." />
+            <marker date="1514396408294" expanded="true" signature="1433:1948" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="1993:2350" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="2402:2544" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="2594:2822" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3118:3491" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="3497:3515" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="3609:3685" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="3691:3709" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="3776:4029" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4063:4274" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="4301:4312" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="4361:4367" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="4410:4942" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4973:5328" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="5355:5366" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="5381:5387" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="5424:5817" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="5879:6088" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="6094:6112" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="6215:6282" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="6319:6565" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="6608:6619" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6644:6650" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="6687:6698" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6720:6726" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="6786:6797" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="6830:6836" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="6906:7496" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="7551:7562" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="7585:7591" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="7629:7640" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="7694:7700" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="7761:7772" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="7814:7820" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="7869:7880" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="7908:7914" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="7983:7994" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8033:8039" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8075:8086" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8110:8116" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8169:8180" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8211:8217" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8260:8271" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8302:8308" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8375:8386" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8431:8437" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8488:8499" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8528:8534" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8606:8617" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8658:8664" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="8710:8721" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="8758:8764" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="8840:8913" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="8966:8977" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="9018:9024" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="9112:9193" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="9243:9254" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="9294:9300" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="9383:9462" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9529:9793" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9890:10066" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="10108:10119" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10131:10137" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="10143:10161" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="10254:10660" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="10721:10819" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="10874:10885" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10916:10922" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="10964:10975" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10988:10994" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="11051:11209" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="11289:11611" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="11686:13183" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="13272:13321" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="13369:13647" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="13694:13701" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/Produce.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <marker date="1514396408294" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1514396408294" expanded="false" signature="140:333" ph="..." />
+            <marker date="1514396408294" expanded="true" signature="335:456" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelTestContextBootstrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171222.161336-148.jar!/org/apache/camel/component/mock/MockEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+          <folding>
+            <marker date="1514396408294" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1514396408294" expanded="false" signature="155:1789" ph="..." />
+            <marker date="1514396408294" expanded="true" signature="1791:1983" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="2923:3031" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3061:3133" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3169:3240" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3281:3352" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3390:3461" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3506:3577" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3613:3685" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3719:3791" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3824:3867" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="3901:3984" ph="@{...}" />
+            <marker date="1514396408294" expanded="true" signature="4087:4190" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4196:4214" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="4275:4367" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="4394:4405" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="4424:4430" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="4505:4616" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="4736:5415" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="5542:5824" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="5922:6158" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="6251:6863" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="6985:7743" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="7819:8435" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="8493:9093" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9204:9451" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="9493:9504" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="9539:9545" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="9620:9717" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9773:10055" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9821:10048" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="9901:10038" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="10080:10091" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10103:10109" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="10183:10225" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="10295:10306" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10344:10350" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="10412:10423" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10457:10463" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="10519:10530" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="10591:10597" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="10675:10766" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="10832:10895" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="10990:11343" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="11443:13098" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="13167:13501" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="13599:13957" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="14014:14025" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="14069:14075" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="14121:14132" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="14159:14165" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="14229:14240" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="14291:14297" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="14365:16067" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="14537:14589" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="15977:15996" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="16165:17298" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="16238:16286" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="17275:17290" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="17386:17568" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="17638:19225" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="17834:17882" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="19202:19217" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="19325:20472" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="19398:19446" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="20449:20464" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="20562:20746" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="20803:21864" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="20967:21015" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="21841:21856" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="21965:22966" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23033:23493" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23212:23441" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23248:23427" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23552:23709" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23761:24487" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23860:24427" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="23892:24417" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="24554:25473" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="24718:24766" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="25450:25465" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="25542:25709" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="25758:25769" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="25813:25819" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="25897:26819" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="25986:26034" ph="run() → {" />
+            <marker date="1514396408294" expanded="false" signature="26796:26811" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="26900:27114" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="26939:27012" ph="matches(exchange) → {" />
+            <marker date="1514396408294" expanded="false" signature="27091:27106" ph="}" />
+            <marker date="1514396408294" expanded="true" signature="27178:27352" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="27201:27266" ph="run() → { " />
+            <marker date="1514396408294" expanded="false" signature="27320:27344" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="27400:27697" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="27461:27637" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="27493:27627" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="27762:27937" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="27785:27850" ph="run() → { " />
+            <marker date="1514396408294" expanded="false" signature="27905:27929" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="27986:28284" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="28047:28224" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="28079:28214" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="28351:28520" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="28374:28439" ph="run() → { " />
+            <marker date="1514396408294" expanded="false" signature="28488:28512" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="28571:28863" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="28632:28803" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="28664:28793" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="28927:28938" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="28982:28988" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="29053:29064" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="29109:29115" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="29199:30357" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="30417:31021" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="31065:31076" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="31101:31107" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="31168:31474" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="31229:31414" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="31261:31404" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="31517:32059" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="31578:31999" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="31610:31989" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="32115:32304" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="32333:32344" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32361:32367" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32405:32416" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32433:32439" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32481:32492" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32513:32519" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32556:32567" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32587:32593" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32643:32654" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32684:32690" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32725:32736" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32762:32768" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32808:32819" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32849:32855" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="32917:32928" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="32971:32977" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="33014:33025" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="33052:33058" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="33114:33125" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="33162:33168" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="33239:33306" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="33312:33330" ph="/**...*/" />
+            <marker date="1514396408294" expanded="true" signature="33416:33485" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="33538:33549" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="33593:33599" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="33660:33864" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="33932:34155" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="34191:34202" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34223:34229" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34278:34289" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34314:34320" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34369:34380" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34411:34417" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34464:34475" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34504:34510" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34542:34553" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34577:34583" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34632:34643" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34674:34680" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34719:34730" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34757:34763" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="34822:34833" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="34870:34876" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="34902:35738" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="35802:36334" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="36424:38526" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="38582:39260" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="39332:39874" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="39958:40149" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="40241:40425" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="40492:40568" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="40610:41284" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="41326:41337" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="41370:41376" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="41430:41514" ph="{...}" />
+            <marker date="1514396408294" expanded="true" signature="41598:41681" ph="{...}" />
+            <marker date="1514396408294" expanded="false" signature="41715:41726" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="41738:41744" ph=" }" />
+            <marker date="1514396408294" expanded="false" signature="41786:41797" ph=" { " />
+            <marker date="1514396408294" expanded="false" signature="41809:41815" ph=" }" />
+            <marker date="1514396408294" expanded="true" signature="41869:41988" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringBootRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/docs/test-spring.adoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="224" column="15" lean-forward="false" selection-start-line="224" selection-start-column="15" selection-end-line="224" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerMockEndpointsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerDisableJmxInheritedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerDisableJmxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/SimpleMockTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5442" column="37" lean-forward="false" selection-start-line="5442" selection-start-column="37" selection-end-line="5442" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerPlainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/ProduceBeanTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-core/2.21.0-SNAPSHOT/camel-core-2.21.0-20171228.115131-149.jar!/org/apache/camel/ProducerTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/ProduceBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MySender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/MyProduceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/ProducerBeanInjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/SimpleMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/MockEndpointsAndSkipTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/MockEndpointsAndSkipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test/2.21.0-SNAPSHOT/camel-test-2.21.0-20171228.123435-110.jar!/org/apache/camel/test/junit4/CamelTestSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="86" column="41" lean-forward="false" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/patterns/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/camel/test/spring/CamelSpringTestSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/org/apache/camel/test/spring/CamelSpringRunnerPlainTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerProvidesBreakpointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/spring/CamelSpringRunnerMockEndpointsAndSkipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithInterceptSendToEndpointWithLoadbalancerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/issues/AdviceWithOnExceptionMultipleIssueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#1763#2126#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringCamelContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1884#2110#0" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/camel/test/patterns/DebugSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="66" column="10" lean-forward="false" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#2434#2772#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>camel-test-spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.sun.xml.bind:jaxb-core:2.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

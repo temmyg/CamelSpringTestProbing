@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.camel:apt:2.21.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/apt/2.21.0-SNAPSHOT/apt-2.21.0-20171228.114118-171.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/apt/2.21.0-SNAPSHOT/apt-2.21.0-20171228.114118-171-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/apt/2.21.0-SNAPSHOT/apt-2.21.0-20171228.114118-171-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

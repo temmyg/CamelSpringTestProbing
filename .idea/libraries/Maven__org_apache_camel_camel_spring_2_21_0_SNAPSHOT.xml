@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.camel:camel-spring:2.21.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-spring/2.21.0-SNAPSHOT/camel-spring-2.21.0-20171228.122934-114.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-spring/2.21.0-SNAPSHOT/camel-spring-2.21.0-20171228.122934-114-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-spring/2.21.0-SNAPSHOT/camel-spring-2.21.0-20171228.122934-114-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
